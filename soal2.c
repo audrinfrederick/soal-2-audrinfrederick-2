@@ -58,7 +58,7 @@ int main(void) {
                 int size = dfs(i, j);
 
                 if (size > largest)
-                    largest = size-1;
+                    largest = size;
             }
         }
     }
